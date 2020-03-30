@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import { Header } from 'components/Header';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
