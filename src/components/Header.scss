@@ -1,0 +1,25 @@
+@import '../consts.scss';
+
+#header {
+    background-color: $background-darker-color;
+    text-align: center;
+    color: #fff;
+    padding: 0.75rem;
+    padding-left: 0;
+
+    #header-content {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #subtitle {
+            font-size: 1rem;
+        }
+    }
+
+    #main-logo{
+        margin-left: -20px;
+    }
+
+}
