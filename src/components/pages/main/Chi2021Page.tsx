@@ -24,11 +24,11 @@ export const Chi2021Page = () => {
             <table className="supplementary-material">
                 <tr>
                     <th>A <b>presentation slide</b> used in the tutorial stage</th>
-                    <td><Link to="https://data-at-hand.github.io/supplementary/tutorial-slide.pdf" download target="_self">Download</Link></td>
+                    <td><a href="https://data-at-hand.github.io/supplementary/tutorial-slide.pdf" target="_blank">Download</a></td>
                 </tr>
                 <tr>
                     <th>A <b>video clip</b> demonstrating the push-to-talk method for speech interactions, also used in the tutorial stage</th>
-                    <td><Link to="https://data-at-hand.github.io/supplementary/tutorial-speech-description.mp4" download target="_self">Download</Link></td>
+                    <td><a href="https://data-at-hand.github.io/supplementary/tutorial-speech-description.mp4" target="_blank">Download</a></td>
                 </tr>
             </table>
         </Section>
