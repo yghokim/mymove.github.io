@@ -4,11 +4,18 @@ import './Header.scss';
 
 export const Header = () => {
     return <div id="header">
-        <div className="main-content" id="header-content">
-            <img id="main-logo" src={logo} alt="logo" width="260" />
-            <div id="subtitle">
-                Multimodal Mobile App for Exploring Fitness Data using Speech + Touch Interaction
-        </div>
+        <div className="container">
+            <img id="logo" src={logo} />
+
+            <div className="flex-fill" />
+
+
+            <a className="github" href="https://github.com/muclipse/data-at-hand-mobile" target="_blank">
+                <div>
+                    <img src={require('../assets/github.svg')} />
+                    <span>Github</span>
+                </div>
+            </a>
         </div>
     </div>
 }

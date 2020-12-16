@@ -1,37 +1,39 @@
 import React from 'react';
-import './App.scss';
-import { Header } from 'components/Header';
+import { MainPage } from 'components/pages/main/MainPage'
+import { Chi2021Page} from 'components/pages/main/Chi2021Page'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
 } from "react-router-dom";
 import { PrivacyPolicyMain } from 'components/pages/PrivacyPolicyMain';
+import { Header } from 'components/Header';
 import { Footer } from 'components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Header />
-        <div id="main-wrapper">
-          <div id="main">
-            <Switch>
-              <Route path="/privacy">
-                <PrivacyPolicyMain />
-              </Route>
+        <div id="content">
+          <Switch>
+            <Route path="/privacy">
+              <PrivacyPolicyMain />
+            </Route>
+            <Route path="/chi2021">
+              <Chi2021Page/>
+            </Route>
 
-              <Route path="/">
-                <div>Home</div>
-              </Route>
-            </Switch>
-          </div>
-          <div id="footer">
-            <Footer />
-          </div>
+            <Route path="/">
+              <MainPage />
+            </Route>
+          </Switch>
+
+          <Footer />
         </div>
       </div>
+
     </Router>
   );
 }

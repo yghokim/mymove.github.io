@@ -1,25 +1,62 @@
-@import '../consts.scss';
+@import '../common.scss';
 
 #header {
+    border-bottom: 1px solid #e8e8e8;
     background-color: $background-darker-color;
-    text-align: center;
-    color: #fff;
-    padding: 0.75rem;
-    padding-left: 0;
+    height: $header-height;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
 
-    #header-content {
-
+    & > .container{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+    }
 
-        #subtitle {
-            font-size: 1rem;
+    img#logo {
+        width: 14rem;
+        margin: 0.5rem 0;
+        margin-left: -2rem;
+    }
+
+    .gnb-link {
+        text-decoration: none;
+        font-weight: bold;
+        color: #575757;
+        margin-right: 1.5rem;
+
+        &.selected{
+            text-decoration: underline;
+        }
+
+        &:hover {
+            color: #1cb6b7;
         }
     }
 
-    #main-logo{
-        margin-left: -20px;
-    }
+    .github {
+        text-decoration: none;
+        align-self: stretch;
+        display: flex;
+        padding: 0 1rem;
 
+        &:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        &>div {
+            align-self: stretch;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+            }
+
+            span {
+                font-size: 0.85rem;
+                margin-left: 0.25rem;
+                font-weight: 500;
+                color: white;
+            }
+        }
+    }
 }

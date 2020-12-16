@@ -1,0 +1,25 @@
+$background-color: #4F566A;
+$background-darker-color: #3e4456;
+
+$header-height: 65px;
+
+$content_hor_padding: 16px;
+$color_accent: #f35f59;
+$color_pointed: #0594c4;
+$color_italic: inherit;
+
+$color_gradient_start: #dd4255;
+$color_gradient_end: #ef9a23;
+
+$paragraph_margin_bottom: 1.5em;
+
+$header_mobile_gnb_height: 45px;
+
+$desktop_content_width: 1024px;
+
+
+@mixin respond_to_mobile(){
+    @media screen and (max-width: 720px){
+          @content;
+      }
+}
