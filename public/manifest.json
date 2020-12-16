@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Data@Hand",
+  "name": "Data@Hand - Personal Data Exploration on Smartphones Leveraging Speech and Touch",
   "icons": [
     {
       "src": "favicon.ico",
