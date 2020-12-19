@@ -1,9 +1,11 @@
 @import './common.scss';
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Open Sans', 'Roboto', 'Oxygen',
+  font-family: 'Source Sans Pro', 'Open Sans', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -15,96 +17,101 @@ code {
     monospace;
 }
 
-.flex-fill{
+.flex-fill {
   flex: 1;
 }
 
 
-h1{
+h1 {
   color: $color_accent;
   font-weight: 300;
   margin-top: 2.3em;
   margin-bottom: 1.5rem;
-  @include respond_to_mobile(){
-      font-size: 20pt;
+
+  @include respond_to_mobile() {
+    font-size: 20pt;
   }
 
   &:before {
-      display: block;
-      content: "";
-      width: $content_hor_padding;
-      height: 3px;
-      margin-left: -$content_hor_padding;
-      background: $color_accent;
+    display: block;
+    content: "";
+    width: $content_hor_padding;
+    height: 3px;
+    margin-left: -$content_hor_padding;
+    background: $color_accent;
   }
 }
 
-h2{
+h2 {
   margin-top: 2em;
   margin-bottom: 0.3em;
   font-size: 17pt;
   font-weight: 600;
   color: #252525;
-  @include respond_to_mobile(){
-      font-size: 13pt;
+
+  @include respond_to_mobile() {
+    font-size: 13pt;
   }
 
-  &:first-of-type{
-      margin-top: inherit;
+  &:first-of-type {
+    margin-top: inherit;
   }
 }
 
-h3{
+h3 {
   color: #c74b61;
   font-size: 16pt;
   font-weight: 400;
   margin-bottom: 0.4em;
-  @include respond_to_mobile(){
-      font-size: 14pt;
+
+  @include respond_to_mobile() {
+    font-size: 14pt;
   }
 }
 
-h5{
+h5 {
   margin-top: 1.25rem;
 }
 
-span.warning{
+span.warning {
   color: #fb362b;
 }
 
-p, .paragraph{
-  font-size: 14pt;
+p,
+.paragraph {
+  font-size: 15pt;
   font-weight: 400;
-  line-height: 1.7em;
+  line-height: 1.5em;
   margin-top: 0px;
   margin-bottom: $paragraph_margin_bottom;
 
   color: #575757;
-  @include respond_to_mobile(){
-      font-size: 15pt;
+
+  @include respond_to_mobile() {
+    font-size: 15pt;
   }
 
-  i{
-      color: $color_italic;
-      font-weight: 600;
+  i {
+    color: $color_italic;
+    font-weight: 600;
   }
 
-  &:last-child{
-      margin-bottom: 0px;
+  &:last-child {
+    margin-bottom: 0px;
   }
 
-  img{
+  img {
     max-width: 100%;
   }
 
-  &.multi-column{
+  &.multi-column {
     display: flex;
 
-    .column{
+    .column {
       flex: 1;
       margin-right: 3rem;
 
-      &:last-child{
+      &:last-child {
         margin-right: 0;
       }
     }
@@ -112,7 +119,7 @@ p, .paragraph{
 }
 
 
-.margin-bottom-1rem{
+.margin-bottom-1rem {
   margin-bottom: 1rem;
 }
 

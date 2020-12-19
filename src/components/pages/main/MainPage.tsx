@@ -20,12 +20,28 @@ export const MainPage = () => {
                         <source src={loopmp4} type="video/mp4" />
                     </video>
 
-                    <p className="description-text">
-                        <b>Data@Hand</b> is a cross-platform smartphone app that facilitates visual data exploration leveraging both speech and touch interactions.
-                Data visualization is a common way that mobile health apps enable people to explore their data on smartphones.
-                However, due to smartphones’ limitations such as small screen size and lack of precise pointing input,
-                they provide limited support for visual data exploration with over-simplified time navigation, even though time is a primary dimension of self-tracking data. Data@Hand leverages the synergy of speech and touch; speech-based interaction takes little screen space and natural language is flexible to cover different ways of specifying dates and their ranges (e.g., “<i>October 7th</i>”, “<i>Last Sunday</i>”, “<i>This month</i>”). Currently, Data@Hand supports displaying the <b>Fitbit</b> data (e.g., step count, heart rate, sleep, and weight) for navigation and temporal comparisons tasks.
+                    <div className="description-text-container">
+                        <p className="description-text">
+                            <b>Data@Hand</b> is a cross-platform smartphone app that facilitates visual data exploration leveraging both speech and touch interactions.
+                To overcome the smartphones’ limitations such as small screen size and lack of precise pointing input, Data@Hand leverages the synergy of speech and touch; speech-based interaction takes little screen space and natural language is flexible to cover different ways of specifying dates and their ranges (e.g., “<i>October 7th</i>”, “<i>Last Sunday</i>”, “<i>This month</i>”). Currently, Data@Hand supports displaying the <b>Fitbit</b> data (e.g., step count, heart rate, sleep, and weight) for navigation and temporal comparisons tasks.
                 </p>
+
+                        <div className="description-keywords-container">
+                            <div className="keyword-title">
+                                Keywords
+                            </div>
+                            <div className="keyword-list">
+                                <div className="keyword">Persomal Health Informatics</div>
+                                <div className="keyword">Mobile Data Visualization</div>
+                                <div className="keyword">Multimodal Interaction</div>
+                                <div className="keyword">Natural Language Interface</div>
+                                <div className="keyword">Smartphone</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>

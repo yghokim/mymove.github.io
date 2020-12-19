@@ -1,43 +1,91 @@
 @import "../../../common.scss";
 
-.project-description{
+.project-description {
     padding-top: 2rem;
 
 
-    .description-content-container{
-        display:  flex;
+    .description-content-container {
+        display: flex;
         align-items: flex-start;
 
 
-        @media (max-width: $container-max-widths-lg){
+        @media (max-width: $container-max-widths-lg) {
             flex-direction: column;
             align-items: center;
         }
     }
 
 
-    video.teaser-loop{
+    video.teaser-loop {
 
-        @include respond_to_mobile(){
+        width: 350px;
+
+
+        @media (max-width: $container-max-widths-lg) {
             width: 100%;
+            max-width: 400px;
+        }
+
+        @media (max-width: $container-max-widths-md) {
+            width: 100%;
+            max-width: initial;
         }
     }
 
-    .description-text{
+    .description-text-container {
         padding-left: 2rem;
-        margin-top: -8px;
+
+        .description-text {
+            margin-top: -8px;
+        }
 
 
-        @media (max-width: $container-max-widths-lg){
+        @media (max-width: $container-max-widths-lg) {
             padding-left: 0px;
-            margin-top: 2rem;
+
+            .description-text {
+                margin-top: 2rem;
+            }
+        }
+
+        .description-keywords-container {
+
+            font-size: 14pt;
+
+            .keyword-title {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+                font-size: 16pt;
+            }
+
+            .keyword-list {
+                display: flex;
+                flex-wrap: wrap;
+
+                margin-left: -1.25rem;
+                margin-top: -0.25rem;
+
+                .keyword {
+                    margin-left: 1.25rem;
+                    margin-top: 0.25rem;
+                }
+            }
         }
     }
 }
 
-.headline{
+.headline {
     font-weight: 300;
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 2rem;
+
+
+    @media (max-width: $container-max-widths-lg) {
+        font-size: 1.7rem;
+    }
+
+    @media (max-width: $container-max-widths-md) {
+        font-size: 1.5rem;
+    }
 }

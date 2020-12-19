@@ -5,7 +5,9 @@ import './Header.scss';
 export const Header = () => {
     return <div id="header">
         <div className="container">
-            <img id="logo" src={logo} />
+            <a href="/">
+                <img id="logo" src={logo} />
+            </a>
 
             <div className="flex-fill" />
 
