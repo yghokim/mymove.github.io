@@ -2,6 +2,7 @@ import React from 'react';
 import { Video } from '../../Video';
 import { Publication } from './Publication';
 import { Team } from './Team';
+import { SystemInformation } from './SystemInformation';
 import './MainPage.scss';
 
 import loopmp4 from '../../../assets/teaser-loop.mp4';
@@ -49,5 +50,6 @@ export const MainPage = () => {
         <Video />
         <Publication />
         <Team />
+        <SystemInformation/>
     </>
 }

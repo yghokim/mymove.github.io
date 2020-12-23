@@ -1,0 +1,22 @@
+.list-libraries{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -2rem;
+    margin-left: -3rem;
+
+    .lib-element{
+        text-align: center;
+        margin-left: 3rem;
+        margin-top: 3rem;
+        img{
+            height: 80px;
+        }
+        div{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.list-open-sources{
+    font-size: 1.2rem;
+}
