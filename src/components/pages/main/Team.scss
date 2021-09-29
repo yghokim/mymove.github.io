@@ -1,83 +1,98 @@
 @import '../../../common.scss';
 
-div.members{
+div.members {
     display: flex;
     padding: 0px;
+    flex-wrap: wrap;
+    margin-bottom: -2rem;
 
-
-    @include respond_to_mobile(){
+    @include respond_to_mobile() {
         justify-content: inherit;
         display: block;
+
+        margin-bottom: 0;
     }
 
-    div.member:hover{
+    div.member:hover {
         background: #e0e0e0;
     }
 
-    div.member{
+    div.member {
         width: 240px;
         flex-basis: 25%;
         border-radius: 12px;
-        @include respond_to_mobile(){
+        margin-bottom: 2rem;
+
+        @include respond_to_mobile() {
             width: inherit;
+
+            margin-bottom: 0;
         }
 
-            cursor: pointer;
+        cursor: pointer;
 
-        a{
+        a {
             color: inherit;
             text-decoration: inherit;
         }
 
-        .member_content{
+        .member_content {
             width: 100%;
             font-size: 11pt;
-            display:inline-block;
+            display: inline-block;
             text-align: center;
-            @include respond_to_mobile(){
+
+            @include respond_to_mobile() {
                 text-align: left;
                 display: flex;
                 justify-content: center;
                 margin-top: 25px;
             }
 
-            .thumb{
+            .thumb {
                 padding: 5px;
                 pointer-events: none;
                 width: 75%;
                 margin: 0px auto;
                 margin-bottom: 12px;
 
-                @include respond_to_mobile(){
+                @include respond_to_mobile() {
                     width: 128px;
                     height: 128px;
                     margin-bottom: 0px;
                 }
-                
-                img{
+
+                img {
                     width: 100%;
                     border-radius: 2000px;
                 }
             }
-            
-            .information{
+
+            .information {
                 padding: 0px 5px 5px 5px;
                 pointer-events: none;
-                @include respond_to_mobile(){
+
+                @include respond_to_mobile() {
                     flex: 1;
                     align-self: center;
                     margin-left: 18px;
                 }
 
-                .name{
+                .name {
                     font-size: 13pt;
                     font-weight: 600;
                 }
-                
-                .description{
+
+                .role {
+                    color: #45a6d6;
+                    font-weight: 600;
+                }
+
+                .description {
                     margin-top: 6px;
                     line-height: 1.4em;
-                    .email{
+
+                    .email {
                         color: #dc613c;
                     }
                 }
@@ -85,8 +100,8 @@ div.members{
         }
     }
 
-    div.member:first-child{
-        @include respond_to_mobile(){
+    div.member:first-child {
+        @include respond_to_mobile() {
             margin-top: 0px;
         }
     }

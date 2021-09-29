@@ -2,17 +2,12 @@ import React from 'react';
 import { Section } from '../../Section';
 import './Publication.scss';
 
-
 const papers = [
     {
-        authors: "Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, and Eun Kyoung Choe",
-        title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction",
-        description: "ACM CHI 2021. Accepted for Publication.",
-        doi: null,
-        link: {
-            title: "Supplementary Material",
-            url: "/chi2021"
-        }
+        authors: "Sabahat Fatima",
+        title: "Activity Recognition in Older Adults with Training Data from Younger Adults: Preliminary Results on In Vivo Smartwatch Sensor Data",
+        description: "ACM ASSETS 2021 Student Research Competition. 26:1–26:8 (In Press)",
+        doi: "https://doi.org/10.1145/3441852.3476475",
     }
 ]
 

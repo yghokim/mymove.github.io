@@ -5,7 +5,7 @@ import 'components/Footer.scss';
 export const Footer = () => {
     return <div id="footer">
         <div id="footer_content">
-            Copyright © 2020 The Data@Hand Team. All Rights Reserved.
+            Copyright © 2021 MyMove Research Team. All Rights Reserved.
   </div>
     </div>
 }
