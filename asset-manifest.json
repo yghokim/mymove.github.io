@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18acbd7a.chunk.css",
+    "main.js": "/static/js/main.5a317579.chunk.js",
+    "main.js.map": "/static/js/main.5a317579.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f6157b90.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f6157b90.js.map",
+    "static/js/2.b219c3da.chunk.js": "/static/js/2.b219c3da.chunk.js",
+    "static/js/2.b219c3da.chunk.js.map": "/static/js/2.b219c3da.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7350f06ef94140387462167d562d2bb3.js": "/precache-manifest.7350f06ef94140387462167d562d2bb3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.18acbd7a.chunk.css.map": "/static/css/main.18acbd7a.chunk.css.map",
+    "static/js/2.b219c3da.chunk.js.LICENSE.txt": "/static/js/2.b219c3da.chunk.js.LICENSE.txt",
+    "static/media/amanda_portrait.jpg": "/static/media/amanda_portrait.38d5e351.jpg",
+    "static/media/author_bongshin.png": "/static/media/author_bongshin.d29b39dc.png",
+    "static/media/choe_portrait.png": "/static/media/choe_portrait.8530d3d4.png",
+    "static/media/david_portrait.jpg": "/static/media/david_portrait.61dec3e7.jpg",
+    "static/media/diana_portrait.jpg": "/static/media/diana_portrait.3fa942c4.jpg",
+    "static/media/github.svg": "/static/media/github.f81a174b.svg",
+    "static/media/hernisa_portrait.jpg": "/static/media/hernisa_portrait.9b4cb321.jpg",
+    "static/media/margaret_portrait.jpg": "/static/media/margaret_portrait.d00f0a0a.jpg",
+    "static/media/mymove_horizontal_light.svg": "/static/media/mymove_horizontal_light.3cd370bb.svg",
+    "static/media/sabahat_portrait.jpg": "/static/media/sabahat_portrait.a9dbe98d.jpg",
+    "static/media/yhkim_portrait.jpg": "/static/media/yhkim_portrait.cb5d642b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6157b90.js",
+    "static/js/2.b219c3da.chunk.js",
+    "static/css/main.18acbd7a.chunk.css",
+    "static/js/main.5a317579.chunk.js"
+  ]
+}
